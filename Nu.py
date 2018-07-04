@@ -19,16 +19,30 @@
 #==============================================================================#
 # -*- coding: utf-8 -*-
 
-from linepy import *
-from akad.ttypes import Message
-from datetime import datetime
-from time import sleep
-from bs4 import BeautifulSoup
-from humanfriendly import format_timespan, format_size, format_number, format_length
-import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib.parse
-from gtts import gTTS
-from googletrans import Translator
+#from linepy import *
+#from akad.ttypes import Message
+#from datetime import datetime
+#from time import sleep
+#from bs4 import BeautifulSoup
+#from humanfriendly import format_timespan, format_size, format_number, format_length
+#import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib.parse
+#from gtts import gTTS
+#from googletrans import Translator
 #==============================================================================#
+#botStart = time.time()
+#~~~~~~~~~~~~~~~~~~~~~~บอกว่าเทสยุ~~~~~~~~~~~~~~~~~
+# -*- coding: utf-8 -*- 
+import LINEPY
+from LINEPY import *
+from akad.ttypes import *
+from multiprocessing import Pool, Process
+from time import sleep
+import pytz, datetime, pafy, time, timeit, random, sys, ast, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, wikipedia
+from datetime import timedelta, date
+from datetime import datetime
+from bs4 import BeautifulSoup
+import youtube_dl
+
 botStart = time.time()
 
 #line = LINE()
